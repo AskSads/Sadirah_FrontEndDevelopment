@@ -1,33 +1,134 @@
-body {margin:0;}
+body {
+	
+	margin:0;
+	padding:0;
+	height:70%;
+	width:70%;
+	margin-left:15%;
+	background-color: #000000;
+	
+	}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
+  margin-top:50px;
+  margin-left:100px;
+ 
+  font-family:MV Boli;
+
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 60px;
   text-decoration: none;
   font-size: 17px;
+ 
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #ff0000;
+  
 }
 
 .active {
-  background-color: #4CAF50;
-  color: white;
+  /* background-color: #4CAF50; */
+  color: #ff0000;
 }
 
 .topnav .icon {
   display: none;
 }
+
+#logo{
+	width:20%;
+	margin-top:30px;
+}
+
+p{
+	color:white;
+	font-family:MV Boli;
+	font-size:20px;
+	margin-left:100px;
+	margin-top:50px;
+
+}
+
+#box{
+	border: 3px solid white;
+    padding: 10px 10px;
+    background: black;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+	margin-left:450px;
+	margin-top:-430px;
+}
+#box2{
+	border: 3px solid white;
+    padding: 10px 10px;
+    background: black;
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+	margin-left:450px;
+	margin-top:30px;
+}
+
+#me{
+	width:30%;
+	height:15%;
+	margin-left:30px;
+}
+
+#socialmedia{
+	margin-left:500px;
+	margin-top:-90px;
+	
+}
+#wyl2k{
+	border: 3px solid white;
+    padding: 10px 10px;
+    background: black;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+	margin-left:50px;
+	margin-top:-70px;
+	
+}
+
+h2{
+	color:white;
+	font-family:MV Boli;
+	font-size:20px;
+	margin-left:450px;
+	margin-top:15px;
+	
+}
+h3{
+	color:white;
+	font-family:MV Boli;
+	font-size:20px;
+	margin-left:450px;
+	margin-top:20px;
+	
+	
+}
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
