@@ -1,29 +1,32 @@
 <!DOCTYPE html>
+<html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/navigationscript.js"></script>
 </head>
 <body>
 
-<img id="logo"src="img/logos.PNG"/>
 
-<div id="socialmedia">
-<img src="img/facebook.png" width="20%"/>
-<img src="img/snapchat.png"width="30%"/>
-<img src="img/instagram.png"width="15%"/>
-<img src="img/youtube.png"width="20%"/>
+
+
+
+<ul class="topnav" id="myTopnav">
+
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
+
+<div style="padding-left:16px">
+ <h1>Hi I`m Sadirah </h1>
+ <img id="iSadirah" src="img/me.jpg"/>
 </div>
-
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="aboutwyl2k.html">About WYL2K</a>
-  <a href="#contact">Vlog</a>
-  <a href="#about">Contact</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<p> Hi, I'm Sadirah<p>
-
-<img id="me" src="img/me.jpg">
-
 <div id="box">
 Welcome to Wouldn't You Like To Know! This Blog is about Questions we all want answers to.
 Each week, I ask my listners a question and ask you guys to post your thoughts and opinions 
@@ -34,15 +37,16 @@ about it.
 for new topics! 
 </div>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
