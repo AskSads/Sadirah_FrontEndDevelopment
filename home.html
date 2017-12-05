@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The 3 web languages</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome icon cheatsheet: http://fontawesome.io/cheatsheet/ -->
+  <link rel="stylesheet" href="css/stylesheet1.css">
+</head>
+
+<body>
+
+  <header>
+<div id="me">
+<img class="img-circle" src="img/profile.jpg">
+<h1>Sadirah Koroma
+</br>
+<p>(Business Enterpurie)</p>
+</h1>
+</div>
+  </header>
+
+  <main class="tab_container">
+    
+    <!--
+      THE TABS
+      the 'checked' attribute determines which tab will show when the page loads
+      the actual radio buttons for the input tag are hidden in the CSS
+    -->
+    <input id="tab1" type="radio" name="tabs" checked>
+    <!-- the *label* for the radio button forms the clickable tabs -->
+    <label for="tab1"><i class="fa fa-code"></i><span>Home</span></label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><i class="fa fa-hashtag"></i><span>experience</span></label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3"><i class="fa fa-bug"></i><span>Skills</span></label>
+	
+	 <input id="tab4" type="radio" name="tabs">
+    <label for="tab4"><i class="fa fa-bug"></i><span>Contact Me</span></label>
+
+    <!-- content for tab 1: HTML5 -->
+    <section id="content1" class="tab-content">
+      <header>
+        <h2>Home</h2>
+      </header>
+
+      <table>
+  
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+ suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+ iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+ vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iust
+ o odio dignissim qui blandit praesent luptatum zzril delenit augue
+ duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend
+ option congue nihil imperdiet doming id quod mazim placerat facer
+ possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit
+ eorum claritatem. Investigationes demonstraverunt lectores legere
+ me lius quod ii legunt saepius.
+
+
+      </table>
+
+      <footer>
+        <p><a href="#">add an 'a' tag link to an HTML5 resource on the web</a></p>
+      </footer>
+    </section>
+
+    <!-- content for tab 2: CSS -->
+    <section id="content2" class="tab-content">
+      <header>
+        <h2>experince</h2>
+      </header>
+
+    <div class="row">
+  <div class="column">
+    <h2>First Year</h2>
+    <p>Result: Pending</p>
+  </div>
+  <div class="column">
+    <h2>Second Year</h2>
+    <p>Result: Distinction</p>
+  </div>
+  <div class="column">
+    <h2>Third year</h2>	
+    <p>Result: Pass</p>
+  </div>
+</div>
+
+      <footer>
+        <p><a href="#">add an 'a' tag link to a CSS resource on the web</a></p>
+      </footer>
+    </section>
+
+    <!-- content for tab 3: JavaScript -->
+    <section id="content3" class="tab-content">
+      <header>
+        <h2>Skills</h2>
+      </header>
+
+      <dl>
+ <div class="skill">
+<div class="foo white"><p>C#</p></div>
+<div class="foo blue"><p>HTML5</p></div>
+<div class="foo white"><p>CSS3</p></div>
+<div class="foo blue"><p>JavaScript</p></div>
+<div class="foo blue"><p>MySQL</p></div>
+<div class="foo white"><p>ASP.NET MVC</p></div>
+<div class="foo blue"><p>Networking</p></div>
+<div class="foo white"><p>UML</p></div>
+
+</div>
+      </dl>
+
+      <footer>
+        <p><a href="#">add an 'a' tag link to a JavaScript resource on the web</a></p>
+      </footer>
+    </section>
+	
+	
+	
+	
+	  <section id="content4" class="tab-content">
+      <header>
+        <h2>contact me</h2>
+      </header>
+
+      <dl>
+
+
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+</br>
+    <label for="lname">Last Name</label>
+
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+</br>
+    <!-- <label for="skill">what skill would u like to know </label> -->
+
+    <!-- <select id="country" name="country"> -->
+      <!-- <option value="australia">asdjasd</option> -->
+      <!-- <option value="canada">adsada</option> -->
+      <!-- <option value="usa">asda</option> -->
+    <!-- </select> -->
+</br>
+    <label for="subject">Subject</label>
+
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+</br>
+    <input type="submit" value="Submit">
+  </form>
+
+      </dl>
+
+      <footer>
+        <p><a href="#">add an 'a' tag link to a JavaScript resource on the web</a></p>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- adapted from a CodePen by Thierry Koblentz: http://cssmojo.com/pure-css-tab-panel/ -->
+</body>
+</html>
