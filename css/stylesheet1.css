@@ -73,7 +73,6 @@ footer a:hover {
 	margin-left:2%;
 	background-color:white;
 	border:solid;
-	display:inline block;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -188,7 +187,7 @@ section footer {
   position: relative;
   bottom: 0;
   background: black;
-  width: 100%;
+  width: 103%;
   margin-left: -1em;
 }
 section footer p {
@@ -280,7 +279,28 @@ label:last-child {
   }
   
 }
-
+iframe{
+	width:50%;
+	height:300px;
+}
+.collaboration h2{
+	background-color:#ff000;
+	   border:solid;
+	   position:relative;
+	   text-align:center;
+	   margin-left:0%;
+	
+}
+.twitter-timeline{
+margin-bottom:-500px;
+	margin-left:65%;
+	
+}
+.pictures{
+	width:17%;
+	margin-left:13%;
+	
+}
 
 
 /* --------- table styles below here --------- */
