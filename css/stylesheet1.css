@@ -335,7 +335,7 @@ iframe{
 }
 .twitter-timeline{
 	margin-top:0%;
-	margin-left:20%;
+	
 	
 }
 .pictures{
@@ -363,13 +363,18 @@ body{
 	margin:auto;
 }
 iframe{
-	width:30%;
-	height:300px;
-}
-.twitter-timeline{
-	margin-top:-35%;
-	margin-left:45%;
+	width:100%;
 	
+}
+.twitter{
+	float:left;
+	width:30%;
+	padding-left:15%;
+	
+}
+.twit{
+	width:100%;
+	height:450px;
 }
 
 
