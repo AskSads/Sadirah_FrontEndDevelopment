@@ -25,9 +25,9 @@ footer a:hover {
   color: #888;
 }
 .me {
-	width: 100px;
-    height: 100px;	
-	margin:1% auto;
+	width: 50%;
+ 	margin:1% auto;
+	
 	display:block;
 	border: 5px solid #fff;	
 }
@@ -192,6 +192,7 @@ section footer p {
   padding: 0 1em;
   line-height: 1.5em;
   text-align: center;
+  color: white;
 }
 /*
   displays and styles 'label' tags (for radio button 'input' tags)
@@ -300,8 +301,7 @@ iframe{
 }
 .form{
 	font-size:10px;
-	
-	
+
 }
 
 
@@ -377,6 +377,12 @@ section footer {
 	
 	
 }
+.me {
+	width: 50%;
+	margin:1% auto;
+	display:block;
+	border: 5px solid #fff;	
+}
 
 
 }
@@ -412,6 +418,11 @@ iframe{
 	font-size: 20px;
 	
 	
+}
+.me {
+	width: 20%;
+	margin:1% auto;
+
 }
 
 
