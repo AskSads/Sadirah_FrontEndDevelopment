@@ -1,7 +1,8 @@
+/*GLOBAL and MOBILE responsive*/
+
 body {
-  margin:0;
-  margin-left:10%;
-  margin-right:20%;
+  margin:0 auto;
+
 }
 h1 {
   font-size: 1.25em;
@@ -59,10 +60,7 @@ footer a:hover {
 
 }
 
-/* #abilities div { */
-    /* width: 100%; */
-    /* height: 50%; */
-/* } */
+
 .mySlides {display:none;}
 
 .skill{
@@ -187,8 +185,8 @@ section footer {
   position: relative;
   bottom: 0;
   background: black;
-  width: 103%;
-  margin-left: -1em;
+  width: 100%;
+
 }
 section footer p {
   padding: 0 1em;
@@ -266,7 +264,7 @@ label:last-child {
 .tab_container section * {
   animation: fadeIn 0.7s ease-in-out;
 }
-
+}
 
 @keyframes fadeIn {
 
@@ -280,7 +278,7 @@ label:last-child {
   
 }
 iframe{
-	width:50%;
+	width:100%;
 	height:300px;
 }
 .collaboration h2{
@@ -292,13 +290,12 @@ iframe{
 	
 }
 .twitter-timeline{
-margin-bottom:-500px;
-	margin-left:65%;
+	margin-left:2%;
 	
 }
 .pictures{
-	width:17%;
-	margin-left:13%;
+	width:31%;
+	margin-left:1%;
 	
 }
 
@@ -314,9 +311,9 @@ margin-bottom:-500px;
 
 
 
-/* --------- Basic responsive breakpoint --------- */
+/* --------- tablet --------- */
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 500px) {
 
 	
   h1 {
@@ -326,8 +323,57 @@ margin-bottom:-500px;
   label span {
     display: inline;
   }
-  
-  
-  
-  
+  	body{
+		
+	margin:0 auto;
+	/* width:100%; */
+}
+
+iframe{
+	width:50%;
+	height:300px;
+}
+.twitter-timeline{
+	/* margin-top:-35%; */
+	float:left;
+	
+}
+.pictures{
+	width:17%;
+	margin-left:13%;
+	
+}
+section footer {
+  position: relative;
+  bottom: 0;
+  background: black;
+  width: 103%;
+  margin-left: -1em;
+}
+
+
+}
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+
+
+body{
+	width:80%;
+	margin:auto;
+}
+iframe{
+	width:30%;
+	height:300px;
+}
+.twitter-timeline{
+	margin-top:-35%;
+	margin-left:45%;
+	
+}
+
+
+
+
+
 }
