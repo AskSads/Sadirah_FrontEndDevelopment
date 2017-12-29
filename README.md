@@ -23,28 +23,28 @@ This hand drawn wireframe is used to depict how my website will look when users 
 # Project Summary
 For this assignment, we had to create a HTML5 Website which included a range of specific requirements. Most of these requirements derived from our lab work and from previous years and modules which aided me to complete this assignment to the best of my ability. From this module I have learnt that when you design and create a website you must consider the architecture and your potential users. A website should allow users to navigate around the site effortlessly. Below are the requirements for the website and my development process, along with issues faced and how I resoled them and my user testing.
 
-#Requirements
-ü validity and standards-compliance of the source code
+###Requirements
+ - validity and standards-compliance of the source code
 
-ü correct and well-formed HTML5 code structure
+ - correct and well-formed HTML5 code structure
 
-ü consistent code indentation (2 spaces is best)
+ - consistent code indentation (2 spaces is best)
 
-ü creative use of CSS3 features
+ - creative use of CSS3 features
 
-ü effective and/or creative use of JavaScript
+ - effective and/or creative use of JavaScript
 
-ü evidence of any user testing and resulting changes
+ - evidence of any user testing and resulting changes
 
-ü effectiveness of navigation, information architecture, interaction design and accessibility/usability
+ - effectiveness of navigation, information architecture, interaction design and accessibility/usability
 
-ü coherence of general design, including images at correct size and CSS styles and effects
+ - coherence of general design, including images at correct size and CSS styles and effects
 
-ü quality of content and suitability for proposed audience
+ - quality of content and suitability for proposed audience
 
-ü good understanding of all code
+ - good understanding of all code
 
-ü creative use of available technologies
+ - creative use of available technologies
 
 # Development
 I started developing my website by using the code availbel from the lab work that I had done
@@ -149,7 +149,7 @@ there is one error on javascript.
    *Icons 
    https://codepen.io/Deadlymuffin/pen/hGiqo/
    
-   *radio buttons
+   * Radio buttons
    
    https://github.com/CTEC3905/js-show-hide
  
