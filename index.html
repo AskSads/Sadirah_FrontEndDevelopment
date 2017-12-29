@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<!-- responsive link -->
 		<meta charset="utf-8">
+			<!-- title -->
 		<title>SKC</title>
+		<!-- responsive link -->
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-		<!-- Font Awesome icon cheatsheet: http://fontawesome.io/cheatsheet/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- css link -->
 		<link rel="stylesheet" href="css/stylesheet1.css">
 	</head>
 	<body>
 		<header>
+			<!-- logo/name -->
 			<div id="me">
 				<img class="me" src="img/me.png" alt="logo"/>
 				<h1><strong>Sadirah Koroma</strong>
@@ -19,11 +23,7 @@
 			</div>
 		</header>
 		<main class="tab_container">   
-		<!--
-		THE TABS
-		the 'checked' attribute determines which tab will show when the page loads
-		the actual radio buttons for the input tag are hidden in the CSS
-		-->
+		<!--THE TABSthe 'checked' attribute determines which tab will show when the page loads the actual radio buttons for the input tag are hidden in the CSS -->
 		<input id="tab1" type="radio" name="tabs" checked>
 		<!-- the *label* for the radio button forms the clickable tabs -->
 		<label for="tab1"><i class="fa fa-home"></i><span>Home</span></label>
@@ -33,7 +33,7 @@
 		<label for="tab3"><i class="fa fa-calculator"></i><span>Skills</span></label>	
 		<input id="tab4" type="radio" name="tabs">
 		<label for="tab4"><i class="fa fa-envelope"></i><span>Contact Me</span></label>
-		<!-- content for tab 1: HTML5 -->
+		<!-- content for tab my story -->
 		<section id="content1" class="tab-content">			
 			<h2>My Story</h2>			     
 			<p>SKC Consultancy evolved from Answers to Business Ltd, a company with a 20 year track
@@ -50,21 +50,31 @@
 					<a class="twitter-timeline" data-width="250" data-height="400" href="https://twitter.com/dmuleicester?ref_src=twsrc%5Etfw">Tweets by dmuleicester</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 				</div>
 			</div>
+			<!-- links to my connections-->
 			<div class="collaboration">
 				<h2> My Connections </h2>	
 				<a href="https://www.crowdcube.com/"> <img class="pictures" src="img/Picture1.jpg" alt="blue"></a>
 				<a href="https://www.angelinvestmentnetwork.co.uk/"> <img class="pictures" src="img/Picture2.png" alt="blue"> </a>
 				<a href="https://seedcamp.com/"> <img class="pictures" src="img/Picture3.jpg" alt="blue"> </a>
 			</div>
+				<!-- footer-->
 			<footer>
-				<p>&#9400;Created by Sadirah Koroma</p>
+			<ul>
+					<li class="site">SiteMap</li>
+					<li><a href="#tab1">Home</a></li>
+					<li><a href="#tab2">Services</a></li>
+					<li><a href="#tab3">Skills</a></li>
+					<li><a href="#tab4">Contact</a></li>
+				</ul>
+				<p>© Created by Sadirah Koroma</p>
 			</footer>
 		</section>
-		<!-- content for tab 2: CSS -->
+		<!-- content for services tab -->
 		<section id="content2" class="tab-content">
 			<header>
 				<h2>Services</h2>
 			</header>
+				<!-- rows and columns -->
 			<div class="row">
 				<div class="column">
 					<h3>Strategy & Planning</h3>
@@ -74,6 +84,7 @@
 					To achieve this, we apply all our experience of shaping strategies that have helped companies make the leap from great first idea to recognised brand and from industry outsider to industry leader.
 					Rooted in proven, measurable business principles and the most advanced design thinking, our approach is to simplify and strengthen every step you make with your business.
 					</p>
+						<!-- slideshows -->
 					<div class="w3-content w3-section" style="max-width:400px">
 						<img class="mySlides" src="img/SP.jpg" style="width:50%" alt="image1">
 						<img class="mySlides" src="img/SP2.jpg" style="width:50%" alt="image2">
@@ -86,6 +97,7 @@
 					Where others believe in marketing activity for its own sake, we believe in actions founded on analysis, research and proven business models. This is what underpins all our marketing consultancy and creative services.
 					With so many new channels and options, it can be challenging to identify the marketing formula that will maximise your budget and monetise your online and offline presence.
 					</p>
+					<!-- slideshows -->
 					<div class="w3-content w3-section" style="max-width:400px">
 						<img class="mySlides" src="img/Digital-Marketing.png" style="width:50%" alt="image4">
 						<img class="mySlides" src="img/Icon+-+Marketing.png" style="width:50%" alt="image5">
@@ -101,6 +113,7 @@
 					We provide a more holistic view of your options to bring your business goal to life. Are you working towards a demanding financial goal? Where others might see challenges, we see opportunities.
 					Ask us how we can help you.
 					</p>
+					<!-- slideshows -->
 					<div class="w3-content w3-section" style="max-width:400px">
 						<img class="mySlides" src="img/Finance.jpg" style="width:50%" alt="image4">
 						<img class="mySlides" src="img/finance1.jpg" style="width:50%" alt="image5">
@@ -108,11 +121,19 @@
 					</div>
 				</div>
 			</div>
+			<!-- footer -->
 			<footer>
-				<p>&#9400;Created by Sadirah Koroma</p>
+			<ul>
+					<li class="site">SiteMap</li>
+					<li><a href="#tab1">Home</a></li>
+					<li><a href="#tab2">Services</a></li>
+					<li><a href="#tab3">Skills</a></li>
+					<li><a href="#tab4">Contact</a></li>
+				</ul>
+				<p>© Created by Sadirah Koroma</p>
 			</footer>
 		</section>
-		<!-- content for tab 3: JavaScript -->
+		<!-- content for tab skills: -->
 		<section id="content3" class="tab-content">
 			<header>
 				<h2>Skills</h2>
@@ -122,7 +143,8 @@
 		    There are freelance consultants who help school systems and universities make better programs for students or help the school come up with a better financial plan.  There are consultants for sports teams, investment banking, publishing companies, and accounting firms.  
 			Literally everyone and anyone with a marketable skill can become a consultant BUT to be a GREAT and SUCCESFUL consultant in any domain you must have developed very specific qualities and skills.
 			Below you will find four major keys that make a great Business Consultant and the right choice for your new venture. </p>
-            <div class="contentContainer">
+            <!-- skills bar progress -->
+			<div class="contentContainer">
                 <div class="skillBar">
                     <h4>Analytical Skills</h4>
                     <div class="skillBarContainer">
@@ -147,7 +169,8 @@
                         <div class="skillBarValue value-100"></div>
                     </div>
                 </div>
-			</div>			
+			</div>
+			<!-- wiki api form -->			
 			<form class="form" id="searchForm">
 				<label for="wikiQuery">Search For More Business Skills: </label>
 				<input id="wikiQuery" type="text" placeholder="">
@@ -156,14 +179,24 @@
 			</form>
 			<br>
 			<br>
+			<!-- footer -->
 			<footer>
-				<p>&#9400;Created by Sadirah Koroma</p>
+			<ul>
+					<li class="site">SiteMap</li>
+					<li><a href="#tab1">Home</a></li>
+					<li><a href="#tab2">Services</a></li>
+					<li><a href="#tab3">Skills</a></li>
+					<li><a href="#tab4">Contact</a></li>
+				</ul>
+				<p>© Created by Sadirah Koroma</p>
 			</footer>
 		</section>
+		<!-- section tab contact -->
 		<section id="content4" class="tab-content">
 			<header>
 				<h2>contact me</h2>
 			</header>
+			<!-- contact form -->
 			<form action="/action_page.php">
 				<label for="fname">First Name</label>
 				<input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -176,13 +209,20 @@
 				<br>
 				<input type="submit" value="Submit">
 			</form>
+			<!-- footer -->
 			<footer>
-				<p>#9400;Created by Sadirah Koroma</p>
+			<ul>
+					<li class="site">SiteMap</li>
+					<li><a href="#tab1">Home</a></li>
+					<li><a href="#tab2">Services</a></li>
+					<li><a href="#tab3">Skills</a></li>
+					<li><a href="#tab4">Contact</a></li>
+				</ul>
+				<p>© Created by Sadirah Koroma</p>
 			</footer>
 		</section>
 	</main>
 	<script src="js/javascript.js"></script>
 	<script src="js/api.js"></script>
-  <!-- adapted from a CodePen by Thierry Koblentz: http://cssmojo.com/pure-css-tab-panel/ -->
 </body>
 </html>

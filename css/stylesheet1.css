@@ -1,5 +1,5 @@
 /*GLOBAL and MOBILE responsive*/
-
+/* this piece of css is on every tab until the where you see end */
 body {
   margin:0 auto;
 
@@ -24,150 +24,6 @@ footer a:visited {
 footer a:hover {
   color: #888;
 }
-.me {
-	width: 50%;
- 	margin:1% auto;
-	
-	display:block;
-	border: 5px solid #fff;	
-}
-#me h1{
-	font-size:20px;
-}
-#me p{
-	font-size:15px;
-}
-.row{
-       display: -webkit-flex;
-    display: flex;
-	width:90%;
-	/* margin-left:-6%; */
-}
-.column {
-    margin-left:-1%;
-    width: 70%;
-	padding-left:5%;
-   font-size:.8em;
-   font-family:Verdana,sans-serif;
-    
-}
-#abilities {
-    width: 100%;
-    height: 400px;
-    display: -webkit-flex; /* Safari */
-
-    display: flex;
-
-}
-
-
-.mySlides {display:none;}
-
-.skill{
-
-	
-	width:100%;
-	height:100px;
-	margin-left:2%;
-	background-color:white;
-	border:solid;
-}
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-	margin-top:-10%;
-	margin-left:10%;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.tab__container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-top: 6%;
-}
-
-
-.skillBar {
-    margin-bottom: 26px;
-    margin-bottom: 1.66em;
-	
-}
-
-.skillBar h4 {
-    font-size: 21px;
-    font-size: 1.33em;
-    text-transform: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 7px;
-    margin-bottom: .33em;
-}
-
-.skillBarContainer {
-    width: 100%;
-    max-width: 650px;
-    height: 46px;
-    height: 1.66em;
-    background: #fff;
-    background: rgba(8,102,220,.2);
-    overflow: hidden;
-    border-radius: 5px;
-	
-}
-
-.skillBarValue {
-    height: 1.66em;
-    float: left;
-    background: #fff;
-    background: rgb(17, 17, 17);
-	
-}
-
-.value-00 { width: 0; }
-
-.value-10 { width: 10%; }
-
-.value-20 { width: 20%; }
-
-.value-30 { width: 30%; }
-
-.value-40 { width: 40%; }
-
-.value-50 { width: 50%; }
-
-.value-60 { width: 60%; }
-
-.value-70 { width: 70%; }
-
-.value-80 { width: 80%; }
-
-.value-90 { width: 90%; }
-
-.value-100 { width: 100%; }
-
-
-
-
-
 
 /*
   Hides the radio buttons ('input' tags) themselves, but not
@@ -255,18 +111,15 @@ label:last-child {
   margin-right: 10px;
 }
 
-
-/* --------- Basic animation --------- */
-/*
-  this can all be commented out without
-  affecting the functionality of the tabs
-*/
-
 .tab_container section * {
   animation: fadeIn 0.7s ease-in-out;
 }
-
-
+.tab__container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 6%;
+}
 @keyframes fadeIn {
 
   0% { 
@@ -278,6 +131,13 @@ label:last-child {
   }
   
 }
+.site{
+	color:white;
+}
+/* end */
+
+
+/* index tab */
 iframe{
 	width:100%;
 	height:300px;
@@ -302,24 +162,151 @@ iframe{
 	font-size:10px;
 
 }
+.me {
+	width: 50%;
+ 	margin:1% auto;
+	
+	display:block;
+	border: 5px solid #fff;	
+}
+#me h1{
+	font-size:20px;
+}
+#me p{
+	font-size:15px;
+}
+/* end */
+
+/* service tab */
+.row{
+       display: -webkit-flex;
+    display: flex;
+	width:90%;
+	/* margin-left:-6%; */
+}
+.column {
+    margin-left:-1%;
+    width: 70%;
+	padding-left:5%;
+   font-size:.8em;
+   font-family:Verdana,sans-serif;
+    
+}
+#abilities {
+    width: 100%;
+    height: 400px;
+    display: -webkit-flex; /* Safari */
+
+    display: flex;
+
+}
+.mySlides {display:none;}
+/* end */
 
 
-/* --------- table styles below here --------- */
+/*skills tab*/
+.skill{
+	width:100%;
+	height:100px;
+	margin-left:2%;
+	background-color:white;
+	border:solid;
+}
+
+.skillBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+	
+}
+
+.skillBar h4 {
+    font-size: 21px;
+    font-size: 1.33em;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+}
+
+.skillBarContainer {
+    width: 100%;
+    max-width: 650px;
+    height: 46px;
+    height: 1.66em;
+    background: #fff;
+    background: rgba(8,102,220,.2);
+    overflow: hidden;
+    border-radius: 5px;
+	
+}
+
+.skillBarValue {
+    height: 1.66em;
+    float: left;
+    background: #fff;
+    background: rgb(17, 17, 17);
+	
+}
+
+.value-00 { width: 0; }
+
+.value-10 { width: 10%; }
+
+.value-20 { width: 20%; }
+
+.value-30 { width: 30%; }
+
+.value-40 { width: 40%; }
+
+.value-50 { width: 50%; }
+
+.value-60 { width: 60%; }
+
+.value-70 { width: 70%; }
+
+.value-80 { width: 80%; }
+
+.value-90 { width: 90%; }
+
+.value-100 { width: 100%; }
 
 
-/* --------- unordered list styles below here --------- */
+/* end*/
 
+/* contact*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
-/* --------- definition list styles below here --------- */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+	margin-top:-10%;
+	margin-left:10%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* end*/
 
-
-
-/* --------- tablet --------- */
+/* --------- tablet view --------- */
 
 @media only screen and (min-width: 500px) {
 
-	
+	  /* on everywhere*/
   h1 {
     font-size: 2em;
   }
@@ -332,7 +319,9 @@ iframe{
 	margin:0 auto;
 	/* width:100%; */
 }
-
+  /* end */
+  
+  /* index tab */
 iframe{
 	width:100%;
 	height:400px;
@@ -340,11 +329,18 @@ iframe{
 .twitter-timeline{
 	margin-top:0%;
 }
+.me {
+	width: 50%;
+	margin:1% auto;
+	display:block;
+	border: 5px solid #fff;	
+}
 .pictures{
 	width:17%;
 	margin-left:13%;
 	
 }
+  /* end */
 section footer {
   position: relative;
   bottom: 0;
@@ -352,6 +348,7 @@ section footer {
   width: 100%;
  
 }
+  /* service tab */
 .row{
        display: -webkit-flex;
     display: flex;
@@ -371,17 +368,14 @@ section footer {
     margin-bottom: 1.66em;
 
 }
+  /* end */
+  
+    /* contact */
 .form{
 	font-size: 20px;
-	
-	
 }
-.me {
-	width: 50%;
-	margin:1% auto;
-	display:block;
-	border: 5px solid #fff;	
-}
+  /* end */
+
 
 
 }
@@ -389,11 +383,14 @@ section footer {
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
 
-
+ /* everywhere*/
 body{
 	width:80%;
 	margin:auto;
 }
+  /* end */
+  
+    /* index */
 iframe{
 	width:100%;
 	
@@ -408,21 +405,27 @@ iframe{
 	width:100%;
 	height:450px;
 }
-.skillBar {
-    margin-bottom: 26px;
-    margin-bottom: 1.66em;
-	margin-left:25%;
-}
-.form{
-	font-size: 20px;
-	
-	
-}
 .me {
 	width: 20%;
 	margin:1% auto;
 
 }
+  /* end */
+  
+    /* skills tab */
+.skillBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+	margin-left:25%;
+}
+  /* end */
+  
+    /* contact */
+.form{
+	font-size: 20px;
+}
+  /* end */
+
 
 
 
