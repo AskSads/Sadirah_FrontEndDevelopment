@@ -63,6 +63,8 @@ Another issue I faced was with my slide show on my “Services” page. At first
 
 I encountered another issue whereby my API was not working. I asked my teacher for some guidance and they suggested I add the script code at the bottom of the page, instead of adding it on the top. When I moved script code to the bottom of the website near the end body tag, the API start working.
 
+####Intelligent application of Information Architecture and PARC
+<img src="https://user-images.githubusercontent.com/25173626/34442856-fe8a44e0-ecbc-11e7-974a-d8733cea6a81.PNG" width="500px" alt="sitemap" />
 
 
 #### 5. User testing
