@@ -66,6 +66,7 @@ I encountered another issue whereby my API was not working. I asked my teacher f
 ####Intelligent application of Information Architecture and PARC
 <img src="https://user-images.githubusercontent.com/25173626/34442856-fe8a44e0-ecbc-11e7-974a-d8733cea6a81.PNG" width="500px" alt="sitemap" />
 
+I tried to incorporate the sitemap to enhance usability but unfortunately the sitemap did not work. Ideally, because my website is a single page website it is not 100% necessary to have it there as users can navigate around my website freely. 
 
 #### 5. User testing
 
