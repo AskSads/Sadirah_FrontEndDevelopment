@@ -133,7 +133,7 @@ there is one error on javascript.
 
 <img src="https://user-images.githubusercontent.com/25173626/34441804-02079962-ecb6-11e7-983d-2fa56db9b5b7.PNG" width="500px" alt="javascript validation error">
 
- I could not reslove the error as i did not know how to fix it. i commented the error code of the javascript, and when i played the website the slideshow was not working. this is why i uncommented the code and left it. 
+ I could not reslove the error as I did not know how to fix it. I commented the code that ccaused the error out of the javascript, and when I played the website the slideshow was not working. this is why I uncommented the code and left it. 
 
 #### 13. References
 
