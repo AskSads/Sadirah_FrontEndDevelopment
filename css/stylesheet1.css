@@ -265,7 +265,7 @@ label:last-child {
 .tab_container section * {
   animation: fadeIn 0.7s ease-in-out;
 }
-}
+
 
 @keyframes fadeIn {
 
@@ -283,7 +283,6 @@ iframe{
 	height:300px;
 }
 .collaboration h2{
-	background-color:#ff000;
 	   border:solid;
 	   position:relative;
 	   text-align:center;
